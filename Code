@@ -1,1 +1,54 @@
+/**
+ * @name Astroneer Discord Layout UI
+ * @author GlazeGit4
+ * @version 1.0.0 Alpha
+ * @description Astroneer and discord all in one mixed together and combine Astroneer and Discord makes Astroneer mixed Discord
+ * @source https://github.com/GlazeGit4/Astroneer-Theme-Discord-Layout-UI/tree/main
+*/
+
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+/* SETTINGS */
+:root {
+  /* ACCENT COLORS */
+  --main-color: #00c1ff; /* Astroneer Blue */
+  --hover-color: #ffa552; /* Soft Orange */
+  --success-color: #e7ff69; /* Vibrant Yellow */
+  --danger-color: #ff5c8a; /* Astroneer Red-Pink */
+  /* STATUS COLORS */
+  --online-color: #32cdff; /* Light Blue */
+  --idle-color: #ffc658; /* Peach Orange */
+  --dnd-color: #ff4477; /* Hot Pink */
+  --streaming-color: #ae47ff; /* Purple Stream Glow */
+  --offline-color: #c3c3c3; /* Soft Gray */
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%;
+  --background-image: url(https://i.imgur.com/GI2GZJr.png); /* Astroneer Background */
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* Unchanged */
+  /* FONTS */
+  --main-font: "Orbitron", sans-serif;
+  --code-font: "Orbitron", Consolas, monospace;
+}
+
+/* UNIVERSAL TEXT STYLING */
+* {
+  color: #cfcfcf !important; /* Astroneer Text Gray */
+  font-weight: bold !important;
+  font-family: var(--main-font) !important;
+}
+
+
 
